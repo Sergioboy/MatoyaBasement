@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatoyaBasement", "MatoyaBasement\MatoyaBasement.csproj", "{3229FD00-D97F-4AEF-9CA5-D89B88DEAA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatoyaBasement.Tests", "MatoyaBasement.Tests\MatoyaBasement.Tests.csproj", "{42E60A7F-C003-407B-A862-8A7837331937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3229FD00-D97F-4AEF-9CA5-D89B88DEAA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3229FD00-D97F-4AEF-9CA5-D89B88DEAA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3229FD00-D97F-4AEF-9CA5-D89B88DEAA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3229FD00-D97F-4AEF-9CA5-D89B88DEAA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E60A7F-C003-407B-A862-8A7837331937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E60A7F-C003-407B-A862-8A7837331937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E60A7F-C003-407B-A862-8A7837331937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E60A7F-C003-407B-A862-8A7837331937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
