@@ -54,15 +54,15 @@ namespace MatoyaBasement
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: System.Configuration.ConfigurationManager.AppSettings["FacebookClientId"],
+               appSecret: System.Configuration.ConfigurationManager.AppSettings["FacebookClientSecret"]);
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = System.Configuration.ConfigurationManager.AppSettings["GoogleClientId"],
+                ClientSecret = System.Configuration.ConfigurationManager.AppSettings["GoogleClientSecret"]
+        });
         }
     }
 }
