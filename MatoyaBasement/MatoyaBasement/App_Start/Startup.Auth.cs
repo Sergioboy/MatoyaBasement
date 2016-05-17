@@ -62,7 +62,7 @@ namespace MatoyaBasement
             {
                 ClientId = System.Configuration.ConfigurationManager.AppSettings["GoogleClientId"],
                 ClientSecret = System.Configuration.ConfigurationManager.AppSettings["GoogleClientSecret"]
-        });
+            });
         }
     }
 }
